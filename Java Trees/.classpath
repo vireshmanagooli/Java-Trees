@@ -5,6 +5,7 @@
 	<classpathentry kind="src" path="example 2"/>
 	<classpathentry kind="src" path="example 3"/>
 	<classpathentry kind="src" path="example 4"/>
+	<classpathentry kind="src" path="example 5"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
