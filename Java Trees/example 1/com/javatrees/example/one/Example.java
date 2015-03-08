@@ -1,4 +1,4 @@
-package com.javatrees.example;
+package com.javatrees.example.one;
 
 import com.javatrees.library.TreeNode;
 
