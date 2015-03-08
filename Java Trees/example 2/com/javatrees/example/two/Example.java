@@ -14,6 +14,13 @@ import com.javatrees.library.TreeNode;
  */
 public class Example {
 	
+	/**
+	 * 1. Recursive function to find out the height of the node.
+	 * 2. Recursively pass the right and left nodes till we find the null.
+	 * 3. At any given level, add +1, to indicate we have to account the current node also.
+	 * @param root
+	 * @return
+	 */
 	private int getHeight(TreeNode node){
 		if(node == null){
 			return 0;
@@ -22,6 +29,12 @@ public class Example {
 		return Math.max(getHeight(node.leftNode), getHeight(node.rightNode)) + 1;
 	}
 	
+	/**
+	 * 1. For every node, find out the height. if the size is greater than 1, then it is not balanced tree.
+	 * 2. Keep doing the same thing for left and right nodes untill we encounter null.
+	 * @param root
+	 * @return
+	 */
 	private boolean isBalenced(TreeNode node){
 		if(node == null)
 			return true;
